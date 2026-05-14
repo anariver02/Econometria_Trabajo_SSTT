@@ -1,0 +1,14 @@
+Series: serie_train 
+Regression with ARIMA(0,0,3)(2,0,0)[12] errors 
+Box Cox transformation: lambda= 0 
+
+Coefficients:
+          ma1      ma2     ma3    sar1    sar2  intercept  D_COVID_2020M03_2020M06
+      -0.0427  -0.2335  0.2286  0.2793  0.2587    11.8369                  -1.4484
+s.e.   0.1078   0.0739  0.1175  0.0899  0.0877     0.0247                   0.0785
+      D_RECUP_2020M07_2021M12
+                      -0.3605
+s.e.                   0.0373
+
+sigma^2 = 0.02491:  log likelihood = 58.64
+AIC=-99.28   AICc=-97.8   BIC=-73.33
